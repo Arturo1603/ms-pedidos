@@ -143,3 +143,5 @@ DELETE /api/pedidos/1
   "fecha": "2026-05-17T10:00:00"
 }
 ```
+
+OBSERVACION: Debido a que el servicio utilizado (RENDER) esta configurado en su version gratuita, aunque este activo, por falta de uso entra en un estado de “dormido”, por es las rutas pueden demorar en cargar 60 segundos, y luego al actualizar cargar con normalidad y responder a las peticiones.
